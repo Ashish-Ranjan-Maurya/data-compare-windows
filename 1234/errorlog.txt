@@ -1,0 +1,554 @@
+R_PATH:"C:\Program Files\R\R-3.4.1\bin\Rscript.exe"
+fileName:C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\deprendo-5pl-aws-driver.r
+"C:\Program Files\R\R-3.4.1\bin\Rscript.exe" C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\deprendo-5pl-aws-driver.r C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\deprendo-5pl-aws.r C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\ct-results.csv C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\plate-setup.csv C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\prism-export.R C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\conc-results.tml NA 5 basic "15,70-130" eds NA RG-384 C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\output
+ C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\deprendo-5pl-aws.r C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\ct-results.csv C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\plate-setup.csv C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\prism-export.R C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\input\conc-results.tml NA 5 basic "15,70-130" eds NA RG-384 C:\Users\ashishr\AppData\Local\Temp\6557637167227987611\output
+      Package  Version
+       digest   0.6.12
+         dplR    1.6.6
+     jsonlite      1.5
+     magrittr      1.5
+  matrixStats   0.52.2
+         plyr    1.8.4
+          png    0.1-7
+  R.methodsS3    1.7.1
+         R.oo   1.21.0
+      R.utils    2.5.0
+         Rcpp  0.12.12
+      stringi    1.1.5
+      stringr    1.2.0
+          XML 3.98-1.9
+ translations    3.4.1
+[1] '3.4.1'
+[1] '3.4.1'
+$double.eps
+[1] 0.000000000000000222045
+
+$double.neg.eps
+[1] 0.000000000000000111022
+
+$double.xmin
+[1] 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000222507
+
+$double.xmax
+[1] 179769313486231570838400602864442228000008602082842266064064680402680408280648240046204888888288080622822420842246006644866884860462806420066668022046626024066662068886808602862886866800048228686262462640668044406484606206082824406288200264266406808068464046840608044222802268424008466606886862062820068082688
+
+$double.base
+[1] 2
+
+$double.digits
+[1] 53
+
+$double.rounding
+[1] 5
+
+$double.guard
+[1] 0
+
+$double.ulp.digits
+[1] -52
+
+$double.neg.ulp.digits
+[1] -53
+
+$double.exponent
+[1] 11
+
+$double.min.exp
+[1] -1022
+
+$double.max.exp
+[1] 1024
+
+$integer.max
+[1] 2147483647
+
+$sizeof.long
+[1] 4
+
+$sizeof.longlong
+[1] 8
+
+$sizeof.longdouble
+[1] 16
+
+$sizeof.pointer
+[1] 8
+
+[1] "############## arguments list:- #################"
+[1] "C:\\Users\\ashishr\\AppData\\Local\\Temp\\6557637167227987611\\input\\deprendo-5pl-aws.r"
+[1] "C:\\Users\\ashishr\\AppData\\Local\\Temp\\6557637167227987611\\input\\ct-results.csv"
+[1] "C:\\Users\\ashishr\\AppData\\Local\\Temp\\6557637167227987611\\input\\plate-setup.csv"
+[1] "NA"
+[1] "NA"
+[1] 5
+[1] "basic"
+[1] "15,70-130"
+[1] "eds"
+[1] "C:\\Users\\ashishr\\AppData\\Local\\Temp\\6557637167227987611\\output"
+[1] "dr.df: "
+   Well     Sample      Sample.Color Biogroup.Name Biogroup.Color Target
+1    A1 Standard-1 rgb(33, 128, 223)      STANDARD        #58595b    IL8
+2    A2 Standard-1 rgb(33, 128, 223)      STANDARD        #58595b    IL8
+3    A3 Standard-1 rgb(33, 128, 223)      STANDARD        #58595b    IL8
+4    A4   Sample-1 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+5    A5   Sample-1 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+6    A6   Sample-1 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+7    A7   Sample-9 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+8    A8   Sample-9 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+9    A9   Sample-9 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+10   B1 Standard-2 rgb(33, 128, 223)      STANDARD        #6d6e70    IL8
+11   B2 Standard-2 rgb(33, 128, 223)      STANDARD        #6d6e70    IL8
+12   B3 Standard-2 rgb(33, 128, 223)      STANDARD        #6d6e70    IL8
+13   B4   Sample-2 rgb(33, 128, 223)     UNKNOWN-2        #f59332    IL8
+14   B5   Sample-2 rgb(33, 128, 223)     UNKNOWN-2        #f59332    IL8
+15   B6   Sample-2 rgb(33, 128, 223)     UNKNOWN-2        #f59332    IL8
+16   B7  Sample-10 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+17   B8  Sample-10 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+18   B9  Sample-10 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+19   C1 Standard-3 rgb(33, 128, 223)      STANDARD        #828384    IL8
+20   C2 Standard-3 rgb(33, 128, 223)      STANDARD        #828384    IL8
+21   C3 Standard-3 rgb(33, 128, 223)      STANDARD        #828384    IL8
+22   C4   Sample-3 rgb(33, 128, 223)     UNKNOWN-2        #f59332    IL8
+23   C5   Sample-3 rgb(33, 128, 223)     UNKNOWN-2        #f59332    IL8
+24   C6   Sample-3 rgb(33, 128, 223)     UNKNOWN-2        #f59332    IL8
+25   C7  Sample-11 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+26   C8  Sample-11 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+27   C9  Sample-11 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+28   D1 Standard-4 rgb(33, 128, 223)      STANDARD        #979799    IL8
+29   D2 Standard-4 rgb(33, 128, 223)      STANDARD        #979799    IL8
+30   D3 Standard-4 rgb(33, 128, 223)      STANDARD        #979799    IL8
+31   D4   Sample-4 rgb(33, 128, 223)     UNKNOWN-2        #f59332    IL8
+32   D5   Sample-4 rgb(33, 128, 223)     UNKNOWN-2        #f59332    IL8
+33   D6   Sample-4 rgb(33, 128, 223)     UNKNOWN-2        #f59332    IL8
+34   D7  Sample-12 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+35   D8  Sample-12 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+36   D9  Sample-12 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+37   E1 Standard-5 rgb(33, 128, 223)      STANDARD        #abacad    IL8
+38   E2 Standard-5 rgb(33, 128, 223)      STANDARD        #abacad    IL8
+39   E3 Standard-5 rgb(33, 128, 223)      STANDARD        #abacad    IL8
+40   E4   Sample-5 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+41   E5   Sample-5 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+42   E6   Sample-5 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+43   F1 Standard-6 rgb(33, 128, 223)      STANDARD        #c0c1c1    IL8
+44   F2 Standard-6 rgb(33, 128, 223)      STANDARD        #c0c1c1    IL8
+45   F3 Standard-6 rgb(33, 128, 223)      STANDARD        #c0c1c1    IL8
+46   F4   Sample-6 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+47   F5   Sample-6 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+48   F6   Sample-6 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+49   G1 Standard-7 rgb(33, 128, 223)      STANDARD        #d5d5d6    IL8
+50   G2 Standard-7 rgb(33, 128, 223)      STANDARD        #d5d5d6    IL8
+51   G3 Standard-7 rgb(33, 128, 223)      STANDARD        #d5d5d6    IL8
+52   G4   Sample-7 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+53   G5   Sample-7 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+54   G6   Sample-7 rgb(33, 128, 223)     UNKNOWN-3        #737dcc    IL8
+55   H1        NTC rgb(33, 128, 223)           NTC           #fff    IL8
+56   H2        NTC rgb(33, 128, 223)           NTC           #fff    IL8
+57   H3        NTC rgb(33, 128, 223)           NTC           #fff    IL8
+58   H4   Sample-8 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+59   H5   Sample-8 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+60   H6   Sample-8 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+     Target.Color     Task Reporter Quencher Quantity Comments Serum.Percentage
+1  rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB 2000.000       NA               NA
+2  rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB 2000.000       NA               NA
+3  rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB 2000.000       NA               NA
+4  rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+5  rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+6  rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+7  rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+8  rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+9  rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+10 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB  400.000       NA               NA
+11 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB  400.000       NA               NA
+12 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB  400.000       NA               NA
+13 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+14 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+15 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+16 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+17 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+18 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+19 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB   80.000       NA               NA
+20 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB   80.000       NA               NA
+21 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB   80.000       NA               NA
+22 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+23 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+24 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+25 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+26 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+27 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+28 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB   16.000       NA               NA
+29 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB   16.000       NA               NA
+30 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB   16.000       NA               NA
+31 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+32 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+33 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+34 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+35 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+36 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+37 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB    3.200       NA               NA
+38 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB    3.200       NA               NA
+39 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB    3.200       NA               NA
+40 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+41 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+42 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+43 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB    0.640       NA               NA
+44 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB    0.640       NA               NA
+45 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB    0.640       NA               NA
+46 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+47 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+48 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+49 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB    0.128       NA               NA
+50 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB    0.128       NA               NA
+51 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB    0.128       NA               NA
+52 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+53 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+54 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+55 rgb(0, 0, 255)      NTC      FAM  NFQ-MGB       NA       NA               NA
+56 rgb(0, 0, 255)      NTC      FAM  NFQ-MGB       NA       NA               NA
+57 rgb(0, 0, 255)      NTC      FAM  NFQ-MGB       NA       NA               NA
+58 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+59 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+60 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+        Ct  Omit
+1  23.6729 FALSE
+2  23.0501 FALSE
+3  23.8753 FALSE
+4  23.7213 FALSE
+5  30.3486 FALSE
+6  30.2185 FALSE
+7  30.1554 FALSE
+8  30.1604 FALSE
+9  30.7637 FALSE
+10 26.5040 FALSE
+11 26.3522 FALSE
+12 26.2485 FALSE
+13 26.2235 FALSE
+14 30.6077 FALSE
+15 30.4404 FALSE
+16 30.6567 FALSE
+17 30.3891 FALSE
+18 30.5897 FALSE
+19 28.8187 FALSE
+20 28.8745 FALSE
+21 28.6674 FALSE
+22 28.4416 FALSE
+23 32.4077 FALSE
+24 31.8128 FALSE
+25 32.0504 FALSE
+26 31.5391 FALSE
+27 31.8179 FALSE
+28 27.8696 FALSE
+29 27.6146 FALSE
+30 27.6328 FALSE
+31 27.6291 FALSE
+32 29.6302 FALSE
+33 29.6246 FALSE
+34 29.7771 FALSE
+35 29.5190 FALSE
+36 29.1490 FALSE
+37 29.3636 FALSE
+38 29.0150 FALSE
+39 28.8289 FALSE
+40 28.6634 FALSE
+41 28.7657 FALSE
+42 28.7576 FALSE
+43 30.6085 FALSE
+44 30.4508 FALSE
+45 30.2258 FALSE
+46 30.3429 FALSE
+47 29.7084 FALSE
+48 29.4056 FALSE
+49 33.7227 FALSE
+50 34.5804 FALSE
+51 33.9697 FALSE
+52 34.9739 FALSE
+53 32.9390 FALSE
+54 32.3252 FALSE
+55 35.3623 FALSE
+56 34.6634 FALSE
+57 35.0752 FALSE
+58 34.6585 FALSE
+59 33.0149 FALSE
+60 33.0728 FALSE
+  Well     Sample      Sample.Color Biogroup.Name Biogroup.Color Target
+1   A1 Standard-1 rgb(33, 128, 223)      STANDARD        #58595b    IL8
+2   A2 Standard-1 rgb(33, 128, 223)      STANDARD        #58595b    IL8
+3   A3 Standard-1 rgb(33, 128, 223)      STANDARD        #58595b    IL8
+4   A4   Sample-1 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+5   A5   Sample-1 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+6   A6   Sample-1 rgb(33, 128, 223)       UNKNOWN        #2377b9    IL8
+    Target.Color     Task Reporter Quencher Quantity Comments Serum.Percentage
+1 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB     2000       NA               NA
+2 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB     2000       NA               NA
+3 rgb(0, 0, 255) STANDARD      FAM  NFQ-MGB     2000       NA               NA
+4 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+5 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+6 rgb(0, 0, 255)  UNKNOWN      FAM  NFQ-MGB       NA       NA               10
+       Ct  Omit
+1 23.6729 FALSE
+2 23.0501 FALSE
+3 23.8753 FALSE
+4 23.7213 FALSE
+5 30.3486 FALSE
+6 30.2185 FALSE
+[1] 60 15
+[1] "x: "
+ [1] -2.965784 -2.965784 -2.965784 -0.643856 -0.643856 -0.643856  1.678072
+ [8]  1.678072  1.678072  4.000000  4.000000  4.000000  6.321928  6.321928
+[15]  6.321928  8.643856  8.643856  8.643856 10.965784 10.965784 10.965784
+[1] "y: "
+ [1] 33.7227 34.5804 33.9697 30.6085 30.4508 30.2258 29.3636 29.0150 28.8289
+[10] 27.8696 27.6146 27.6328 28.8187 28.8745 28.6674 26.5040 26.3522 26.2485
+[19] 23.6729 23.0501 23.8753
+[1] "init.pars: "
+[1] 23.361528 34.275026  4.000000 -0.358829  1.000000
+[1] "reg.Weights: "
+[1] 0.4006108 0.1189619 0.0940456 0.0779154 0.0903326 0.0666147 0.0507713
+[1] "before nlm"
+[1] -2.965784 -0.643856  1.678072  4.000000  6.321928  8.643856 10.965784
+[1] 34.0909 30.4284 29.0692 27.7057 28.7869 26.3682 23.5328
+[1] "5pl parametesr: "
+[1] 15.4579
+[1] 135.892
+[1] -17.3946
+[1] -0.0516999
+[1] 1.94741
+integer(0)
+integer(0)
+  Well   Sample Biogroup.Name Target measured.concentration serum.conc
+4   A4 Sample-1       UNKNOWN    IL8             7495.42758 74954.2758
+5   A5 Sample-1       UNKNOWN    IL8                1.84839    18.4839
+6   A6 Sample-1       UNKNOWN    IL8                2.10979    21.0979
+7   A7 Sample-9       UNKNOWN    IL8                2.25013    22.5013
+8   A8 Sample-9       UNKNOWN    IL8                2.23869    22.3869
+9   A9 Sample-9       UNKNOWN    IL8                1.21874    12.1874
+[1] 36  6
+     Sample Biogroup.Name Target measured.concentration  serum.conc
+1  Sample-1       UNKNOWN    IL8            2499.795254 24997.95254
+2 Sample-10     UNKNOWN-3    IL8               1.526560    15.26560
+3 Sample-11       UNKNOWN    IL8               0.454271     4.54271
+4 Sample-12       UNKNOWN    IL8               4.721085    47.21085
+5  Sample-2     UNKNOWN-2    IL8              69.117702   691.17702
+6  Sample-3     UNKNOWN-2    IL8               4.931780    49.31780
+[1] 12  5
+                              V1
+grp1 Size              5.0000000
+grp2 Size              3.0000000
+grp1 Mstat-Count       2.0000000
+grp2 Mstat-Count       3.0000000
+grp1 Prevalence        0.4290000
+grp2 Prevalence        0.8000000
+More Prev. in grp1     0.0000000
+More Prev. in grp2     1.0000000
+grp1 Mean           5014.0000000
+grp2 Mean            295.0000000
+Mean Difference    -4719.0000000
+Mean Ratio             0.1000000
+P-Value                0.0714286
+Cutoff                47.0000000
+                           V1
+grp1 Size            3.000000
+grp2 Size            4.000000
+grp1 Mstat-Count     3.000000
+grp2 Mstat-Count     2.000000
+grp1 Prevalence      0.800000
+grp2 Prevalence      0.500000
+More Prev. in grp1   1.000000
+More Prev. in grp2   0.000000
+grp1 Mean          295.000000
+grp2 Mean           38.000000
+Mean Difference    257.000000
+Mean Ratio           7.800000
+P-Value              0.114286
+Cutoff              35.000000
+                             V1
+grp1 Size              5.000000
+grp2 Size              4.000000
+grp1 Mstat-Count       1.000000
+grp2 Mstat-Count       1.000000
+grp1 Prevalence        0.286000
+grp2 Prevalence        0.333000
+More Prev. in grp1     0.000000
+More Prev. in grp2     1.000000
+grp1 Mean           5014.000000
+grp2 Mean             38.000000
+Mean Difference    -4976.000000
+Mean Ratio             0.000000
+P-Value                0.555556
+Cutoff               103.000000
+[1] "all.df for avgPlotdata"
+   Well     Sample     Task delta.Ct Quantity measured.concentration
+1    A1 Standard-1 STANDARD  23.6729 2000.000           8103.7073319
+2    A2 Standard-1 STANDARD  23.0501 2000.000          22920.6740401
+3    A3 Standard-1 STANDARD  23.8753 2000.000           5861.8207119
+4    A4   Sample-1  UNKNOWN  23.7213       NA           7495.4275834
+5    A5   Sample-1  UNKNOWN  30.3486       NA              1.8483874
+6    A6   Sample-1  UNKNOWN  30.2185       NA              2.1097907
+7    A7   Sample-9  UNKNOWN  30.1554       NA              2.2501250
+8    A8   Sample-9  UNKNOWN  30.1604       NA              2.2386938
+9    A9   Sample-9  UNKNOWN  30.7637       NA              1.2187380
+10   B1 Standard-2 STANDARD  26.5040  400.000            142.4232100
+11   B2 Standard-2 STANDARD  26.3522  400.000            172.9464939
+12   B3 Standard-2 STANDARD  26.2485  400.000            197.7325764
+13   B4   Sample-2  UNKNOWN  26.2235       NA            204.2447128
+14   B5   Sample-2  UNKNOWN  30.6077       NA              1.4238644
+15   B6   Sample-2  UNKNOWN  30.4404       NA              1.6845291
+16   B7  Sample-10  UNKNOWN  30.6567       NA              1.3558438
+17   B8  Sample-10  UNKNOWN  30.3891       NA              1.7741337
+18   B9  Sample-10  UNKNOWN  30.5897       NA              1.4497013
+19   C1 Standard-3 STANDARD  28.8187   80.000              9.2767129
+20   C2 Standard-3 STANDARD  28.8745   80.000              8.7264986
+21   C3 Standard-3 STANDARD  28.6674   80.000             10.9629078
+22   C4   Sample-3  UNKNOWN  28.4416       NA             14.1019730
+23   C5   Sample-3  UNKNOWN  32.4077       NA              0.2526720
+24   C6   Sample-3  UNKNOWN  31.8128       NA              0.4406963
+25   C7  Sample-11  UNKNOWN  32.0504       NA              0.3523096
+26   C8  Sample-11  UNKNOWN  31.5391       NA              0.5719414
+27   C9  Sample-11  UNKNOWN  31.8179       NA              0.4385605
+28   D1 Standard-4 STANDARD  27.8696   16.000             27.1007804
+29   D2 Standard-4 STANDARD  27.6146   16.000             36.5342338
+30   D3 Standard-4 STANDARD  27.6328   16.000             35.7594947
+31   D4   Sample-4  UNKNOWN  27.6291       NA             35.9150985
+32   D5   Sample-4  UNKNOWN  29.6302       NA              3.8795412
+33   D6   Sample-4  UNKNOWN  29.6246       NA              3.9022921
+34   D7  Sample-12  UNKNOWN  29.7771       NA              3.3262562
+35   D8  Sample-12  UNKNOWN  29.5190       NA              4.3617945
+36   D9  Sample-12  UNKNOWN  29.1490       NA              6.4752056
+37   E1 Standard-5 STANDARD  29.3636    3.200              5.1441014
+38   E2 Standard-5 STANDARD  29.0150    3.200              7.4866075
+39   E3 Standard-5 STANDARD  28.8289    3.200              9.1735948
+40   E4   Sample-5  UNKNOWN  28.6634       NA             11.0117733
+41   E5   Sample-5  UNKNOWN  28.7657       NA              9.8338146
+42   E6   Sample-5  UNKNOWN  28.7576       NA              9.9228607
+43   F1 Standard-6 STANDARD  30.6085    0.640              1.4226745
+44   F2 Standard-6 STANDARD  30.4508    0.640              1.6669783
+45   F3 Standard-6 STANDARD  30.2258    0.640              2.0940700
+46   F4   Sample-6  UNKNOWN  30.3429       NA              1.8591390
+47   F5   Sample-6  UNKNOWN  29.7084       NA              3.5737929
+48   F6   Sample-6  UNKNOWN  29.4056       NA              4.9194509
+49   G1 Standard-7 STANDARD  33.7227    0.128              0.0774355
+50   G2 Standard-7 STANDARD  34.5804    0.128              0.0369409
+51   G3 Standard-7 STANDARD  33.9697    0.128              0.0624224
+52   G4   Sample-7  UNKNOWN  34.9739       NA              0.0265032
+53   G5   Sample-7  UNKNOWN  32.9390       NA              0.1555235
+54   G6   Sample-7  UNKNOWN  32.3252       NA              0.2727003
+55   H1        NTC      NTC  35.3623       NA              0.0000000
+56   H2        NTC      NTC  34.6634       NA              0.0000000
+57   H3        NTC      NTC  35.0752       NA              0.0000000
+58   H4   Sample-8  UNKNOWN  34.6585       NA              0.0345707
+59   H5   Sample-8  UNKNOWN  33.0149       NA              0.1452360
+60   H6   Sample-8  UNKNOWN  33.0728       NA              0.1378583
+      serum.conc        cv recov Target userOmit
+1   8103.7073319  75.39226   405    IL8    False
+2  22920.6740401  75.39226  1146    IL8    False
+3   5861.8207119  75.39226   293    IL8    False
+4  74954.2758342 173.06795    NA    IL8    False
+5     18.4838736 173.06795    NA    IL8    False
+6     21.0979068 173.06795    NA    IL8    False
+7     22.5012501  31.12711    NA    IL8    False
+8     22.3869380  31.12711    NA    IL8    False
+9     12.1873805  31.12711    NA    IL8    False
+10   142.4232100  16.19808    36    IL8    False
+11   172.9464939  16.19808    43    IL8    False
+12   197.7325764  16.19808    49    IL8    False
+13  2042.4471276 169.31046    NA    IL8    False
+14    14.2386443 169.31046    NA    IL8    False
+15    16.8452912 169.31046    NA    IL8    False
+16    13.5584377  14.37751    NA    IL8    False
+17    17.7413368  14.37751    NA    IL8    False
+18    14.4970125  14.37751    NA    IL8    False
+19     9.2767129  12.06891    12    IL8    False
+20     8.7264986  12.06891    11    IL8    False
+21    10.9629078  12.06891    14    IL8    False
+22   141.0197297 161.04075    NA    IL8    False
+23     2.5267201 161.04075    NA    IL8    False
+24     4.4069635 161.04075    NA    IL8    False
+25     3.5230965  24.35893    NA    IL8    False
+26     5.7194137  24.35893    NA    IL8    False
+27     4.3856050  24.35893    NA    IL8    False
+28    27.1007804  15.80702   169    IL8    False
+29    36.5342338  15.80702   228    IL8    False
+30    35.7594947  15.80702   223    IL8    False
+31   359.1509853 126.93688    NA    IL8    False
+32    38.7954124 126.93688    NA    IL8    False
+33    39.0229208 126.93688    NA    IL8    False
+34    33.2625623  33.99485    NA    IL8    False
+35    43.6179454  33.99485    NA    IL8    False
+36    64.7520555  33.99485    NA    IL8    False
+37     5.1441014  27.84240   161    IL8    False
+38     7.4866075  27.84240   234    IL8    False
+39     9.1735948  27.84240   287    IL8    False
+40   110.1177329   6.39521    NA    IL8    False
+41    98.3381457   6.39521    NA    IL8    False
+42    99.2286067   6.39521    NA    IL8    False
+43     1.4226745  19.66653   222    IL8    False
+44     1.6669783  19.66653   260    IL8    False
+45     2.0940700  19.66653   327    IL8    False
+46    18.5913901  44.44945    NA    IL8    False
+47    35.7379289  44.44945    NA    IL8    False
+48    49.1945089  44.44945    NA    IL8    False
+49     0.0774355  34.73710    60    IL8    False
+50     0.0369409  34.73710    29    IL8    False
+51     0.0624224  34.73710    49    IL8    False
+52     0.2650321  81.24391    NA    IL8    False
+53     1.5552355  81.24391    NA    IL8    False
+54     2.7270031  81.24391    NA    IL8    False
+55     0.0000000        NA    NA    IL8    False
+56     0.0000000        NA    NA    IL8    False
+57     0.0000000        NA    NA    IL8    False
+58     0.3457069  58.43226    NA    IL8    False
+59     1.4523596  58.43226    NA    IL8    False
+60     1.3785829  58.43226    NA    IL8    False
+          ID      x.mean delta.Ct.mean delta.Ct.sd     Well Target    Task
+1   Sample-1 2499.795254       24.4277          NA A4,A5,A6      1 UNKNOWN
+2  Sample-10    1.526560       30.5382          NA B7,B8,B9      1 UNKNOWN
+3  Sample-11    0.454271       31.7808          NA C7,C8,C9      1 UNKNOWN
+4  Sample-12    4.721085       29.4443          NA D7,D8,D9      1 UNKNOWN
+5   Sample-2   69.117702       27.0839          NA B4,B5,B6      1 UNKNOWN
+6   Sample-3    4.931780       29.4032          NA C4,C5,C6      1 UNKNOWN
+7   Sample-4   14.565644       28.4128          NA D4,D5,D6      1 UNKNOWN
+8   Sample-5   10.256150       28.7276          NA E4,E5,E6      1 UNKNOWN
+9   Sample-6    3.450794       29.7419          NA F4,F5,F6      1 UNKNOWN
+10  Sample-7    0.151576       32.9675          NA G4,G5,G6      1 UNKNOWN
+11  Sample-8    0.105888       33.3681          NA H4,H5,H6      1 UNKNOWN
+12  Sample-9    1.902519       30.3201          NA A7,A8,A9      1 UNKNOWN
+          cv  serum.conc recov conc
+1  173.06795 24997.95254    NA   NA
+2   14.37751    15.26560    NA   NA
+3   24.35893     4.54271    NA   NA
+4   33.99485    47.21085    NA   NA
+5  169.31046   691.17702    NA   NA
+6  161.04075    49.31780    NA   NA
+7  126.93688   145.65644    NA   NA
+8    6.39521   102.56150    NA   NA
+9   44.44945    34.50794    NA   NA
+10  81.24391     1.51576    NA   NA
+11  58.43226     1.05888    NA   NA
+12  31.12711    19.02519    NA   NA
+     ID   x.mean delta.Ct.mean delta.Ct.sd     Well Target     Task      cv
+1 0.128    0.128       34.0909    0.441518 G1,G2,G3      1 STANDARD 34.7371
+2  0.64    0.640       30.4284    0.192333 F1,F2,F3      1 STANDARD 19.6665
+3    16   16.000       27.7057    0.142274 D1,D2,D3      1 STANDARD 15.8070
+4  2000 2000.000       23.5328    0.430081 A1,A2,A3      1 STANDARD 75.3923
+5   3.2    3.200       29.0692    0.271447 E1,E2,E3      1 STANDARD 27.8424
+6   400  400.000       26.3682    0.128520 B1,B2,B3      1 STANDARD 16.1981
+7    80   80.000       28.7869    0.107171 C1,C2,C3      1 STANDARD 12.0689
+     recov          conc serum.conc
+1  46.0000     0.0589329         NA
+2 269.6667     1.7279076         NA
+3 206.6667    33.1315030         NA
+4 614.6667 12295.4006946         NA
+5 227.3333     7.2681012         NA
+6  42.6667   171.0340935         NA
+7  12.3333     9.6553731         NA
+   ID x.mean delta.Ct.mean delta.Ct.sd     Well Target Task cv recov serum.conc
+1 NTC      0       35.0337    0.351299 H1,H2,H3      1  NTC NA    NA         NA
+  conc
+1   NA
+Loading required package: methods
+[1] 35.0337
+[1] "Done."
+Warning message:
+In readLines(pathname) :
+  incomplete final line found on 'C:/Users/ashishr/AppData/Local/Temp/6557637167227987611/input/conc-results.tml'
+[1] "this is the last message"
+Execution halted
